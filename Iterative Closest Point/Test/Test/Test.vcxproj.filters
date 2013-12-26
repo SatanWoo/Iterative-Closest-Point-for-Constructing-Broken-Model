@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DXF">
+      <UniqueIdentifier>{e14fae4a-0a49-4ef8-9f45-ee52e6c2e1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{ec566bcd-f5e7-44cc-8eda-ca197f72eeea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dl_dxf.cpp">
+      <Filter>Source Files\DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="dl_writer_ascii.cpp">
+      <Filter>Source Files\DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="test_creationclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCloudSet.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dl_attributes.h">
+      <Filter>Source Files\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="dl_codes.h">
+      <Filter>Source Files\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="dl_creationadapter.h">
+      <Filter>Source Files\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="dl_creationinterface.h">
+      <Filter>Source Files\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="dl_dxf.h">
+      <Filter>Source Files\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="dl_entities.h">
+      <Filter>Source Files\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="dl_exception.h">
+      <Filter>Source Files\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="dl_extrusion.h">
+      <Filter>Source Files\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="dl_writer.h">
+      <Filter>Source Files\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="dl_writer_ascii.h">
+      <Filter>Source Files\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="test_creationclass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>Source Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCloudSet.h">
+      <Filter>Source Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
